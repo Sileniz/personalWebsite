@@ -1,0 +1,36 @@
+.mainSection{
+    overflow: hidden;
+    width: 100%;
+    max-width: 900px;
+    min-width: 200px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.DivTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.horizontal{
+    padding-inline: 0.5px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.articleTitle{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+@media (max-width: 730px) {
+    .mainSection{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .horizontal{
+        display: none;
+    }
+}

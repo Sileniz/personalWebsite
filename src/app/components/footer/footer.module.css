@@ -1,0 +1,10 @@
+.footer{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.linkGithub{
+    color: white;
+}

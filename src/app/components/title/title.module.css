@@ -1,0 +1,39 @@
+.containerTitle{
+    color: white;
+    position: relative;
+    font-size: 16px;
+}
+.role{
+    width: 322px;
+    position: absolute;     
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 300;
+}
+.genericP{
+    position: absolute;
+    font-size: 1em;
+    font-weight: 300;
+}
+.title{
+    font-size: 5em;
+    font-weight: 600;
+}
+@media (max-width: 730px) {
+    .genericP{
+        display: none;
+    }
+}
+@media (max-width: 417px) {
+    .title{
+        font-size: 4em;
+    }
+    .role{
+        width: 100%;
+        font-size: 12px;
+    }
+}

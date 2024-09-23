@@ -1,0 +1,53 @@
+.ulNavBar{
+    display: flex;
+    font-size: 18px;
+    gap: 24px;
+}
+.ulLinks{
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+.ulLi{
+    position: relative;
+}
+.hr {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+@keyframes slideOutToLeft {
+    0% {
+        transform-origin: right;
+        transform: scaleX(1);
+    }
+    100% {
+        transform-origin: right;
+        transform: scaleX(0);
+    }
+}
+.ulLi:hover .hr {
+    animation: slideInFromLeft 0.2s ease-in-out forwards;
+}
+.ulLi:not(:hover) .hr{
+    animation: slideOutToLeft 0.3s ease-in-out forwards;
+}
+@media (max-width: 320px) {
+    .ulNavBar{
+        font-size: 16px;
+        gap: 20px;
+    }
+}

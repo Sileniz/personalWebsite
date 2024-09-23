@@ -1,0 +1,51 @@
+.icon{
+    cursor: pointer;
+    filter: invert();
+    width: 25px;
+    height: fit-content;
+}
+.mainContainer{
+    display: flex;
+    width: 290px;
+    gap: 15px;
+    justify-content: space-between;
+}
+.horizontal{
+    padding: 0.5px;
+    transform: rotate(30deg); 
+    background: white;
+}
+.genericP{
+    color: white;
+    width: 100%;
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 300;
+}
+.containerImage{
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px
+}
+@media (max-width: 730px) {
+    .mainContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .horizontal{
+        padding: 0.5px;
+        width: 100%;
+        transform: rotate(0deg); 
+        background: white;
+    }
+    .genericP{
+        width: fit-content;
+    }
+}

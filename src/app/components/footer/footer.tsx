@@ -1,0 +1,13 @@
+import NavBar from "../nav/nav"
+import styles from './footer.module.css'
+import Link from "next/link"
+export default function Footer(){
+    return(
+        <footer className={styles.footer}>
+            <p className={styles.title}>Desenvolvido por:
+            <Link className={styles.linkGithub} 
+            href="https://github.com/Sileniz" 
+            title="Github profile"> Walisson</Link> &lt;/&gt;</p>
+        </footer>
+    )
+}
