@@ -9,14 +9,15 @@ import Link from 'next/link'
 export default function Icons(){
     const [hover, setHover] = useState<boolean>(false)
     const actualHover = useRef<string | null>(null)
-
+    const info = (data: string | null) => setInfo(data, setHover, hover, actualHover)
+    
     return(
         <div className={styles.mainContainer}>
             <div className={styles.containerImage}>{icons.map((item, key) => (
                 <Image src={item.src} 
                 alt={`${item.name}'s image`} title={`${item.name}'s icon`}
-                onMouseEnter={(): void => setInfo(item.name, setHover, hover, actualHover)}
-                onMouseLeave={(): void => setInfo(null, setHover, hover, actualHover)}
+                onMouseEnter={() => info(item.name)}
+                onMouseLeave={() => info(null)}
                 className={styles.icon} 
                 key={key}/>
             ))}</div>

@@ -14,14 +14,15 @@ interface linksProjects {
 export default function linksProjects({site, projectType, github}: linksProjects){
     const [hover, setHover] = useState<boolean>(false)
     const actualHover = useRef<string | null>(null)
+    const info = (data: string | null) => setInfo(data, setHover, hover, actualHover)
     return(
         <div className={styles.divProjects}>
             <div className={styles.Repo}>{iconsProject.map((data, key) => (
                 <Link href={data.name == "Repositório" ? github : site} style={{display: 'flex'}} key={`icon-${key}`}>
                     <Image 
                     src={data.src} alt={`${data.name}'s icon`}
-                    onMouseEnter={() => setInfo(data.name, setHover, hover, actualHover)}
-                    onMouseLeave={() => setInfo(null, setHover, hover, actualHover)} 
+                    onMouseEnter={() => info(data.name)}
+                    onMouseLeave={() => info(null)} 
                     className={styles.iconProject}                          
                     /></Link>
                     ))}

@@ -4,7 +4,6 @@ import Image from "next/image"
 import styles from './project.module.css'
 import LinkProjects from "../linksProjects/linksProjects"
 import AboutProjects from "../aboutProjects/aboutProjects"
-import Link from "next/link"
 
 export default function Project() {
     return (
