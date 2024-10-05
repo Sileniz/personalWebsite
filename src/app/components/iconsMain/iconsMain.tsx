@@ -14,12 +14,14 @@ export default function Icons(){
     return(
         <div className={styles.mainContainer}>
             <div className={styles.containerImage}>{icons.map((item, key) => (
-                <Image src={item.src} 
-                alt={`${item.name}'s image`} title={`${item.name}'s icon`}
-                onMouseEnter={() => info(item.name)}
-                onMouseLeave={() => info(null)}
-                className={styles.icon} 
-                key={key}/>
+                <Link href={item.href} key={key} target='_blank'>
+                    <Image src={item.src} 
+                    alt={`${item.name}'s image`} title={`${item.name}'s icon`}
+                    onMouseEnter={() => info(item.name)}
+                    onMouseLeave={() => info(null)}
+                    className={styles.icon} 
+                    key={key}/>
+                </Link>
             ))}</div>
             <hr className={styles.horizontal}/>
             {hover ? 

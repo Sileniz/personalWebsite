@@ -1,4 +1,3 @@
-'use client'
 import projects from "@/app/libs/project"
 import Image from "next/image"
 import styles from './project.module.css'
@@ -9,7 +8,6 @@ export default function Project() {
     return (
         <section>
             <article className={styles.containerProject}>
-                <>
                 {projects.map((item, index) => (
                     <div key={`project-${index}`} className={styles.Project}>
                         <div key={`image-${index}`}>
@@ -19,7 +17,6 @@ export default function Project() {
                         <AboutProjects key={`about-${index}`} name={item.projectName} technologiesUsed={item.technologiesUsed} Description={item.projectDescription}/>
                     </div>
                 ))}
-                </>
             </article>
         </section>
     )

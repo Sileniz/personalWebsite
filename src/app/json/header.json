@@ -1,6 +1,6 @@
 [
     {"name": "Ínicio", "url": "/"},
-    {"name": "Projetos", "url": "#"},
-    {"name": "Contato", "url": "#"},
-    {"name": "Sobre", "url": "#"}
+    {"name": "Projetos", "url": "#projectID"},
+    {"name": "Conhecimento", "url": "#langsID"},
+    {"name": "Contato", "url": "#"}
 ]

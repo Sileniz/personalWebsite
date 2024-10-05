@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./linksProjects.module.css"
@@ -16,7 +17,7 @@ export default function linksProjects({site, projectType, github}: linksProjects
     const actualHover = useRef<string | null>(null)
     const info = (data: string | null) => setInfo(data, setHover, hover, actualHover)
     return(
-        <div className={styles.divProjects}>
+        <div className={styles.divProjects} id="projectID">
             <div className={styles.Repo}>{iconsProject.map((data, key) => (
                 <Link href={data.name == "Repositório" ? github : site} style={{display: 'flex'}} key={`icon-${key}`}>
                     <Image 
