@@ -1,0 +1,47 @@
+.input, .textArea{
+    padding: 8px;
+    resize: none;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.sectionForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    min-width: 200px;
+    padding-inline: 20px;
+    gap: 20px;
+    font-size: 16px;
+    align-items: center;
+    width: 100%;
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 6px;
+}
+.textArea{
+    height: 200px;
+}
+.containerLabel{
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 3px;
+}
+.label{
+    color: white;
+    font-size: 1em;
+}
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
