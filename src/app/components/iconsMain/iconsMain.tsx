@@ -27,9 +27,11 @@ export default function Icons(){
             {hover ? 
             <p className={styles.genericP}>{actualHover.current}</p> : 
             <Link 
-            href="#" 
+            href="https://wa.me/5588993683011?text=Oi" 
+            target='_blank'
+            rel='noopener noreferrer'
             className={styles.genericP} 
-            title='Link para formulário'>Entre em contato</Link>}
+            title='Link para whatsapp   '>Entre em contato</Link>}
         </div>
     )
 }

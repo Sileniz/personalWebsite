@@ -6,7 +6,6 @@
 }
 .mainContainer{
     display: flex;
-    width: 290px;
     gap: 15px;
     justify-content: space-between;
 }
@@ -17,8 +16,6 @@
 }
 .genericP{
     color: white;
-    width: 100%;
-    width: 100%;
     white-space: nowrap;
     display: flex;
     justify-content: flex-start;

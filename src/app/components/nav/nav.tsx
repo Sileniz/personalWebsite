@@ -13,7 +13,9 @@ export default function NavBar(){
                     <Link 
                     onMouseEnter={() => setHover(key)}
                     onMouseLeave={() => setHover(null)} 
-                    href={item.url} 
+                    href={item.url}
+                    target={item.url.includes('https') ? '_blank' : ''}
+                    rel='noopener noreferrer'
                     className={styles.ulLinks}>{item.name}
                     </Link><hr className={styles.hr}/>
                     </li>
