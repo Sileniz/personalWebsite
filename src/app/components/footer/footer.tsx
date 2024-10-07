@@ -8,6 +8,7 @@ export default function Footer(){
             <Link className={styles.linkGithub} 
             href="https://github.com/Sileniz" 
             title="Github profile"> Walisson</Link> &lt;/&gt;</p>
+            <p className={styles.frase}>Feito com amor e muito café</p>
         </footer>
     )
 }
