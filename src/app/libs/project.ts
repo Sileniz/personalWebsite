@@ -27,7 +27,7 @@ const projects: Project[] = [
         Github: 'https://github.com/Sileniz/just-waifu/',
         Project: 'https://just-waifu.vercel.app/',
         projectName: "Just Waifu",
-        technologiesUsed: "React | Javascript | CSS Modules",
+        technologiesUsed: "React | JavaScript | CSS Modules",
         projectType: "FrontEnd",
         imageSrc: JustWaifu,
         projectDescription: "Aplicação feita em React.JS. Desenvolvida para amantes de animes e mangás, permite navegar entre várias imagens de animes e diferentes tags ao seu gosto, além de poder favoritar as imagens."
@@ -36,7 +36,7 @@ const projects: Project[] = [
         Github: 'https://github.com/Sileniz/personalWebsite',
         Project: 'https://just-waifu.vercel.app/',
         projectName: "Portfolio Website",
-        technologiesUsed: "Next.JS | Javascript | CSS Modules",
+        technologiesUsed: "Next.JS | TypeScript | CSS Modules",
         projectType: "FrontEnd",
         imageSrc: Portfolio,
         projectDescription: "Aplicação feita em Next.JS, com inuito de ser utilizado como um site portoflio para mostrar meus projetos, conhecimentos. Sendo atualizando e melhorado de acordo com minhas hablidades.   "
