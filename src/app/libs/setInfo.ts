@@ -1,6 +1,6 @@
 export const setInfo = (
     item: string | null, 
-    setHover: any, 
+    setHover: (value: boolean) => void, 
     hover: boolean, 
     actualHover: { current: string | null }
 ): void => {
