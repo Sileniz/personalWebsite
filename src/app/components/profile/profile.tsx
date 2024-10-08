@@ -1,5 +1,5 @@
 import Image from "next/image"
-import profile from '@images/01.jpg'
+import profile from '@images/02.png'
 import styles from './profile.module.css'
 export default function Profile(){
     return(

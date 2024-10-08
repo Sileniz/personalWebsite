@@ -15,7 +15,7 @@ interface Project {
 
 const projects: Project[] = [
     {   
-        Github: '#',
+        Github: 'https://github.com/Sileniz/NexAnime',
         Project: 'https://nex-anime.vercel.app/',
         projectName: "NexAnime",
         technologiesUsed: "Next.JS | TypeScript | CSS Modules",

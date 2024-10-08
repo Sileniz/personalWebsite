@@ -19,7 +19,7 @@ export default function linksProjects({site, projectType, github}: linksProjects
     return(
         <div className={styles.divProjects} id="projectID">
             <div className={styles.Repo}>{iconsProject.map((data, key) => (
-                <Link href={data.name == "Repositório" ? github : site} style={{display: 'flex'}} key={`icon-${key}`}>
+                <Link href={data.name == "Repositório" ? github : site} style={{display: 'flex'}} key={`icon-${key}`} target="_blank">
                     <Image 
                     src={data.src} alt={`${data.name}'s icon`}
                     onMouseEnter={() => info(data.name)}

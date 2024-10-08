@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
-import localFont from "next/font/local";
 import "./globals.css";
-
 
 export const metadata: Metadata = {
   title: "Portfolio Walisson",

@@ -5,7 +5,8 @@
 .profile{
     z-index: 99999;
     width: 300px;
-    height: fit-content;
+    object-fit: cover;
+    height: 300px;
     border-radius: 10px;
 }
 .rotateDiv{
