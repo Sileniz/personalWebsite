@@ -30,7 +30,7 @@ interface IconProject {
 export const icons: Icon[] = [
     { name: "Github", src: github, href: "https://github.com/Sileniz" },
     { name: "LinkedIn", src: linkedin, href: "https://www.linkedin.com/in/walisson-da-silva-b71925297/" },
-    { name: "Resume", src: resume, href: "#" },
+    { name: "Resume", src: resume, href: "/Curriculum.pdf" },
 ];
 
 export const iconsProject: IconProject[] = [
