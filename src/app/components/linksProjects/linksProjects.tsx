@@ -12,7 +12,7 @@ interface linksProjects {
     github: string
 }
 
-export default function linksProjects({site, projectType, github}: linksProjects){
+export default function LinksProjects({site, projectType, github}: linksProjects){
     const [hover, setHover] = useState<boolean>(false)
     const actualHover = useRef<string | null>(null)
     const info = (data: string | null) => setInfo(data, setHover, hover, actualHover)
