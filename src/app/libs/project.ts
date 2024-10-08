@@ -34,7 +34,7 @@ const projects: Project[] = [
     },
     {   
         Github: 'https://github.com/Sileniz/personalWebsite',
-        Project: 'https://just-waifu.vercel.app/',
+        Project: 'https://walisson.vercel.app/',
         projectName: "Portfolio Website",
         technologiesUsed: "Next.JS | TypeScript | CSS Modules",
         projectType: "FrontEnd",
