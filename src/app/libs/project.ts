@@ -1,6 +1,7 @@
 import NexAnime from "@images/NexAnime.png"
 import JustWaifu from '@images/JustWaifu.png'
 import Portfolio from '@images/Portfolio.png'
+import ChatTcp from '@images/Chat_TCP.jpg'
 import { StaticImageData } from "next/image";
 
 interface Project {
@@ -14,6 +15,15 @@ interface Project {
 }
 
 const projects: Project[] = [
+    {   
+        Github: 'https://github.com/Sileniz/Chat_TCP',
+        Project: '#',
+        projectName: "ChatTCP",
+        technologiesUsed: "Node.js | TypeScript | TCP Sockets | AES-256 Encryption",
+        projectType: "BackEnd",
+        imageSrc: ChatTcp,  
+        projectDescription: "Servidor socket TCP simples desenvolvido com Node.js e TypeScript. Utiliza criptografia simétrica AES-256 para segurança dos dados."
+    },
     {   
         Github: 'https://github.com/Sileniz/NexAnime',
         Project: 'https://nex-anime.vercel.app/',
