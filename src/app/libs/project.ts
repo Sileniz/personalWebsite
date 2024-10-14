@@ -31,7 +31,7 @@ const projects: Project[] = [
         technologiesUsed: "Node.js | TypeScript | TCP Sockets | AES-256 Encryption",
         projectType: "BackEnd",
         imageSrc: ChatTcp,  
-        projectDescription: "Servidor socket TCP simples desenvolvido com Node.js e TypeScript. Utiliza criptografia simétrica AES-256 para segurança dos dados."
+        projectDescription: "Servidor socket TCP simples desenvolvido com Node.js e TypeScript. Para interação em tempo real. Utiliza criptografia simétrica AES-256 para segurança dos dados."
     },
     {   
         Github: 'https://github.com/Sileniz/NexAnime',
