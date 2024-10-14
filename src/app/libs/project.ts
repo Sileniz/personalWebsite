@@ -16,6 +16,15 @@ interface Project {
 
 const projects: Project[] = [
     {   
+        Github: 'https://github.com/Sileniz/DNS_Server',
+        Project: '#',
+        projectName: "DNS'Server",
+        technologiesUsed: "Node.js | TypeScript | UDP Sockets",
+        projectType: "BackEnd",
+        imageSrc: ChatTcp,  
+        projectDescription: "Este projeto é um servidor DNS simples que utiliza o protocolo UDP para resolver consultas DNS. O servidor é implementado em TypeScript."
+    },
+    {   
         Github: 'https://github.com/Sileniz/Chat_TCP',
         Project: '#',
         projectName: "ChatTCP",
