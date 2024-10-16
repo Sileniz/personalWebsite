@@ -16,6 +16,15 @@ interface Project {
 
 const projects: Project[] = [
     {   
+        Github: 'https://github.com/Sileniz/Chapter_seek',
+        Project: '#',
+        projectName: "Chapter Seek",
+        technologiesUsed: "Node.js | TypeScript | Cheerio | Cheerio",
+        projectType: "BackEnd",
+        imageSrc: ChatTcp,  
+        projectDescription: "Chapter Seek é um serviço em Node.js desenvolvido com TypeScript que realiza web scraping no site da comick para monitorar novos capítulos. Quando um novo capítulo é detectado, o serviço envia notificações automáticas para um canal ou grupo no Telegram, utilizando a API do Telegram."
+    },
+    {   
         Github: 'https://github.com/Sileniz/DNS_Server',
         Project: '#',
         projectName: "DNS'Server",
