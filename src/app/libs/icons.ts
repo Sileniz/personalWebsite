@@ -14,7 +14,7 @@ import css from '@svg/css.svg'
 import react from '@svg/react.svg'
 import next from '@svg/next.svg'
 import postgres from '@svg/postgres.svg'
-
+import nginx from '@svg/nginx.svg'
 
 interface Icon {
     name: string;
@@ -44,6 +44,7 @@ export const langIcon: IconProject[] = [
     { name: "JavaScript", src: javascript },
     { name: "TypeScript", src: typescript },
     { name: "Docker", src: docker },
+    { name: "Nginx", src: nginx},
     { name: "Git", src: git },
     { name: "Express", src: express },
     { name: "Node.js", src: node },
