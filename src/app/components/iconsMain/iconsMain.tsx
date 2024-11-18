@@ -14,7 +14,7 @@ export default function Icons(){
     return(
         <div className={styles.mainContainer}>
             <div className={styles.containerImage}>{icons.map((item, key) => (
-                <Link href={item.href} key={key} target='_blank'>
+                <Link href={item.href} key={key} target='_blank' rel='noopener nofollow noreferrer'>
                     <Image src={item.src} 
                     alt={`${item.name}'s image`} title={`${item.name}'s icon`}
                     onMouseEnter={() => info(item.name)}

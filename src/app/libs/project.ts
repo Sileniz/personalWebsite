@@ -2,6 +2,7 @@ import NexAnime from "@images/NexAnime.png"
 import JustWaifu from '@images/JustWaifu.png'
 import Portfolio from '@images/Portfolio.png'
 import ChatTcp from '@images/Chat_TCP.jpg'
+import MangaCenter from '@images/MangaCenter.png'
 import { StaticImageData } from "next/image";
 
 interface Project {
@@ -16,15 +17,24 @@ interface Project {
 
 const projects: Project[] = [
     {   
+        Github: 'https://github.com/Sileniz/MangaCenter_Server',
+        Project: 'https://mangacenter.vercel.app/',
+        projectName: "Manga Center",
+        technologiesUsed: "Node.js | TypeScript | PostgreSQL | Express",
+        projectType: "FullStack",
+        imageSrc: MangaCenter,  
+        projectDescription: "MangaCenter é um aplicação web APIRest em Node.js desenvolvido com TypeScript que tem como função verifica disponibilidade dos leitores de mangás/manhwa/manhua/HQ brasileiros. Utiliza PostgreSQL para persistência de dados"
+    },
+    {   
         Github: 'https://github.com/Sileniz/Chapter_seek',
         Project: '#',
-        projectName: "Chapter Seek",
+        projectName: "Remi",
         technologiesUsed: "Node.js | TypeScript | Cheerio | Telegraf",
         projectType: "BackEnd",
         imageSrc: ChatTcp,  
-        projectDescription: "Chapter Seek é um serviço em Node.js desenvolvido com TypeScript que realiza web scraping no site da comick para monitorar novos capítulos. Quando um novo capítulo é detectado, o serviço envia notificações automáticas para um canal ou grupo no Telegram, utilizando a API do Telegram."
+        projectDescription: "Remi é um serviço em Node.js desenvolvido com TypeScript que realiza web scraping no site da comick para monitorar novos capítulos. Quando um novo capítulo é detectado, o serviço envia notificações automáticas para um canal ou grupo no Telegram, utilizando a API do Telegram."
     },
-    {   
+    /*{   
         Github: 'https://github.com/Sileniz/DNS_Server',
         Project: '#',
         projectName: "DNS'Server",
@@ -32,7 +42,7 @@ const projects: Project[] = [
         projectType: "BackEnd",
         imageSrc: ChatTcp,  
         projectDescription: "Este projeto é um servidor DNS simples que utiliza o protocolo UDP para resolver consultas DNS. O servidor é implementado em TypeScript."
-    },
+    },*/
     {   
         Github: 'https://github.com/Sileniz/Chat_TCP',
         Project: '#',
